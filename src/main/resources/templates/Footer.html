@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<footer id="fragmentTag" th:fragment="footer1(title,subtitle)">
+		<div class="container" >
+		
+			<h1 th:text="${title}"></h1>
+			<h1 th:text="${subtitle}"></h1>
+			
+			<h1>about learn with durgesh</h1>
+			<h1>provide good content for programming</h1>
+			<h1>feel free the content with me</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto vero aliquam placeat odio eos assumenda necessitatibus aliquid cum consequatur beatae voluptas ad nesciunt error reprehenderit voluptates sapiente impedit officiis dignissimos.</p>
+		</div>
+	</footer>
+</body>
+</html>
